@@ -114,5 +114,5 @@ Template ini bebas digunakan untuk keperluan pendidikan dan institusi.
 
 ---
 
-**Dibuat untuk:** Politekkes Semarang - Jurusan Keperawatan Prodi Tegal
+**Dibuat untuk:** Politekkes - Jurusan Keperawatan, dan prodi lain yang membutuhkan.
 **Format:** Instruksi Kerja Pemeliharaan Alat & Peralatan
