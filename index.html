@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruksi Kerja</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="document-container">
+        <!-- Header Section -->
+        <div class="header-section">
+            <div class="logo-section">
+                <img id="logo" src="logo-placeholder.svg" alt="Logo" class="logo">
+                <div class="institution-info">
+                    <div class="institution-name" contenteditable="true">Jurusan Keperawatan</div>
+                    <div class="institution-detail" contenteditable="true">Politekkes Semarang</div>
+                    <div class="institution-detail" contenteditable="true">Prodi Tegal</div>
+                </div>
+            </div>
+            <div class="title-section">
+                <div class="main-title" contenteditable="true">INSTRUKSI KERJA</div>
+                <div class="subtitle" contenteditable="true">Pemeliharaan Nebulizer</div>
+                <div class="code-section">
+                    <div class="code-row">
+                        <span class="label">Kode IK :</span>
+                        <input type="text" class="code-input" placeholder="Masukkan kode">
+                    </div>
+                    <div class="code-row">
+                        <span class="label">Nomor Revisi</span>
+                        <input type="text" class="revision-input" placeholder="Rev.">
+                    </div>
+                    <div class="code-row">
+                        <span class="label">Halaman:</span>
+                        <input type="text" class="page-input" placeholder="1 dari 1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Section -->
+        <div class="content-section">
+            <!-- Pengertian -->
+            <div class="content-row">
+                <div class="label-cell">PENGERTIAN</div>
+                <div class="content-cell rich-content" contenteditable="true" data-placeholder="Klik untuk mengedit atau paste konten dari Word...">Langkah kerja atau tata cara pemeliharaan alat</div>
+            </div>
+
+            <!-- Tujuan -->
+            <div class="content-row">
+                <div class="label-cell">TUJUAN</div>
+                <div class="content-cell rich-content" contenteditable="true" data-placeholder="Klik untuk mengedit atau paste konten dari Word...">
+                    <ul>
+                        <li>Menambah masa manfaat alat</li>
+                        <li>Memperlancar pelayanan untuk praktek mahasiswa</li>
+                        <li>Memaksimalkan fungsi alat sesuai dengan fungsinya</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Kebijakan -->
+            <div class="content-row">
+                <div class="label-cell">KEBIJAKAN</div>
+                <div class="content-cell rich-content" contenteditable="true" data-placeholder="Klik untuk mengedit atau paste konten dari Word..."></div>
+            </div>
+
+            <!-- Prosedur -->
+            <div class="content-row">
+                <div class="label-cell">PROSEDUR</div>
+                <div class="content-cell rich-content" contenteditable="true" data-placeholder="Klik untuk mengedit atau paste konten dari Word...">
+                    <ol>
+                        <li>Cabut air filter cover</li>
+                        <li>Bersihkan lubangnya dang anti air filter inside setiap 60 hari atau bila sudah terlihat kotor</li>
+                        <li>Pasang kembali air filter cover dengan benar</li>
+                        <li>Bersihkan sisa obat yang tersisa di nebulizer kit</li>
+                        <li>Cuci nebulizer kit dan komponen lainnya dalam air hangat, kemudian bilas</li>
+                        <li>Keringkan pada ruangan yang bersih</li>
+                        <li>Lap dengan kain bersih dan lembut</li>
+                        <li>Setelah semua sudah bersih, simpan di tempat yang kering dan bersih</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Unit Terkait -->
+            <div class="content-row">
+                <div class="label-cell">UNIT TERKAIT</div>
+                <div class="content-cell rich-content" contenteditable="true" data-placeholder="Klik untuk mengedit atau paste konten dari Word...">Pimpinan/Bagian/Sub bagian</div>
+            </div>
+        </div>
+
+        <!-- Location and Date Section (Above Signature) -->
+        <div class="location-date-section">
+            <div class="signature-location">
+                <span contenteditable="true">Tegal</span>,<input type="date" class="date-input" id="documentDate">
+            </div>
+        </div>
+
+        <!-- Signature Section -->
+        <div class="signature-section">
+            <div class="signature-column">
+                <div class="signature-title">Di siapkan oleh</div>
+                <div class="signature-role" contenteditable="true">Instruktur</div>
+                <div class="signature-space"></div>
+                <div class="signature-name" contenteditable="true">[nama]</div>
+                <div class="signature-nip" contenteditable="true">[NIP]</div>
+            </div>
+            <div class="signature-column">
+                <div class="signature-title">Diperiksa oleh :</div>
+                <div class="signature-role" contenteditable="true">Ka. Sub Unit Lab</div>
+                <div class="signature-space"></div>
+                <div class="signature-name" contenteditable="true">Fatchurrozak Himawan, Ns.M.Kep.</div>
+                <div class="signature-nip" contenteditable="true">NIP. ..........</div>
+            </div>
+            <div class="signature-column">
+                <div class="signature-title">Disahkan oleh :</div>
+                <div class="signature-role" contenteditable="true">Ketua Jurusan</div>
+                <div class="signature-space"></div>
+                <div class="signature-name" contenteditable="true">Deddy Utomo, SKM.M.H.Kes</div>
+                <div class="signature-nip" contenteditable="true">NIP.......</div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright">
+            © KingSyah
+        </div>
+    </div>
+
+    <!-- Image Size Control Modal -->
+    <div id="imageSizeModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Atur Ukuran Gambar</h3>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="image-preview-container">
+                    <img id="imagePreview" src="" alt="Preview" class="image-preview">
+                </div>
+                <div class="size-controls">
+                    <label for="imageWidth">Lebar (px):</label>
+                    <input type="number" id="imageWidth" min="50" max="200" value="80">
+
+                    <label for="imageHeight">Tinggi (px):</label>
+                    <input type="number" id="imageHeight" min="50" max="200" value="80">
+
+                    <label>
+                        <input type="checkbox" id="maintainAspectRatio" checked>
+                        Pertahankan rasio aspek
+                    </label>
+                </div>
+                <div class="quality-controls">
+                    <label for="imageQuality">Kualitas (%):</label>
+                    <input type="range" id="imageQuality" min="10" max="100" value="80">
+                    <span id="qualityValue">80%</span>
+                </div>
+                <div class="modal-actions">
+                    <button id="applyImageSize" class="edit-btn">Terapkan</button>
+                    <button id="cancelImageSize" class="edit-btn cancel-btn">Batal</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Image Control Modal -->
+    <div id="contentImageModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Atur Gambar Konten</h3>
+                <span class="close-modal" id="closeContentImageModal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="image-preview-container">
+                    <img id="contentImagePreview" src="" alt="Preview" class="image-preview">
+                </div>
+                <div class="size-controls">
+                    <label for="contentImageWidth">Lebar (px):</label>
+                    <input type="number" id="contentImageWidth" min="100" max="500" value="200">
+
+                    <label for="contentImageHeight">Tinggi (px):</label>
+                    <input type="number" id="contentImageHeight" min="100" max="500" value="200">
+
+                    <label>
+                        <input type="checkbox" id="contentMaintainAspectRatio" checked>
+                        Pertahankan rasio aspek
+                    </label>
+                </div>
+                <div class="quality-controls">
+                    <label for="contentImageQuality">Kualitas (%):</label>
+                    <input type="range" id="contentImageQuality" min="10" max="100" value="80">
+                    <span id="contentQualityValue">80%</span>
+                </div>
+                <div class="position-controls">
+                    <label>Posisi Gambar:</label>
+                    <div class="position-buttons">
+                        <button type="button" class="position-btn" data-position="left">⬅️ Kiri</button>
+                        <button type="button" class="position-btn active" data-position="center">⬆️ Tengah</button>
+                        <button type="button" class="position-btn" data-position="right">➡️ Kanan</button>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <button id="applyContentImageSize" class="edit-btn">Terapkan</button>
+                    <button id="deleteContentImage" class="edit-btn delete-btn">Hapus Gambar</button>
+                    <button id="cancelContentImageSize" class="edit-btn cancel-btn">Batal</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rich Text Toolbar -->
+    <div id="richTextToolbar" class="rich-toolbar" style="display: none;">
+        <button type="button" class="toolbar-btn" data-command="bold" title="Bold">
+            <strong>B</strong>
+        </button>
+        <button type="button" class="toolbar-btn" data-command="italic" title="Italic">
+            <em>I</em>
+        </button>
+        <button type="button" class="toolbar-btn" data-command="underline" title="Underline">
+            <u>U</u>
+        </button>
+        <div class="toolbar-separator"></div>
+        <button type="button" class="toolbar-btn" data-command="insertUnorderedList" title="Bullet List">
+            • List
+        </button>
+        <button type="button" class="toolbar-btn" data-command="insertOrderedList" title="Numbered List">
+            1. List
+        </button>
+        <div class="toolbar-separator"></div>
+        <button type="button" class="toolbar-btn" id="insertImageBtn" title="Insert Image">
+            🖼️ Gambar
+        </button>
+        <input type="file" id="contentImageInput" accept="image/*" style="display: none;">
+    </div>
+
+    <!-- Edit Controls -->
+    <div class="edit-controls">
+        <button id="uploadLogo" class="edit-btn">Ganti Logo</button>
+        <input type="file" id="logoInput" accept="image/*" style="display: none;">
+        <button id="clearBtn" class="edit-btn clear-btn">Bersihkan</button>
+        <button id="testInsertBtn" class="edit-btn debug-btn" title="Test Insert Gambar">🔧 Test</button>
+        <button id="printBtn" class="edit-btn">Print</button>
+        <button id="saveBtn" class="edit-btn">Simpan</button>
+        <button id="exportJsonBtn" class="edit-btn export-btn">Export JSON</button>
+        <button id="importJsonBtn" class="edit-btn import-btn">Import JSON</button>
+        <input type="file" id="jsonInput" accept=".json" style="display: none;">
+    </div>
+
+    <!-- Print Options -->
+    <div class="print-options">
+        <label class="print-option">
+            <input type="checkbox" id="repeatHeaderToggle" checked>
+            <span class="checkmark"></span>
+            📄 Header berulang di setiap halaman (untuk dokumen panjang)
+        </label>
+        <div class="print-option-info">
+            <small>💡 Nonaktifkan jika header terlihat berantakan saat print</small>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
